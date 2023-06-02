@@ -1,0 +1,26 @@
+<!-- Save this as templates/form.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            color: green;
+            background-color: black;
+            text-align: center;
+            margin-top: 5em;
+        }
+    </style>
+    <title>Stock Data</title>
+</head>
+<body>
+    <form method="POST">
+        <label for="start_date"><strong>Start Date:</strong></label><br>
+        <input type="date" id="start_date" name="start_date" required><br>
+        <label for="end_date"><strong>End Date:</strong></label><br>
+        <input type="date" id="end_date" name="end_date" required><br>
+        <label for="stock_symbols"><strong>Stock Symbols (comma-separated):</strong></label><br>
+        <input type="text" id="stock_symbols" name="stock_symbols" required><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

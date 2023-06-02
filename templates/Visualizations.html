@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plotly Visualization</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {
+            color: green;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="plotly-div"></div>
+
+    <script type="text/javascript">
+        var figJson = {{ fig_json|tojson }};
+        Plotly.newPlot('plotly-div', JSON.parse(figJson));
+    </script>
+</body>
+</html>
