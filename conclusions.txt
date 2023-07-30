@@ -1,0 +1,10 @@
+Completed my project of creating a basic trading simulator, some key points that came to mind creating it.
+
+Takeaways:
+
+-DATA IS SUPER IMPORTANT.
+     The main factor that made our project low quality was the quality of data we used. We tried to use "Polygon.ai", it was actually terrible. We aimed to make a trading
+     simulator that could handle minute-to-minute trading, but their data was pretty spotty, to say at the least. It ended up only working SOMEWHAT sufficiently for the stocks
+     that Polygon aims to get the most data on (SPY, TSLA, AAPL). Super disappointed with the quality of minute-to-minute data, but lesson learned.
+  
+-get a front-end dev bc i hate html/js/css lol
